@@ -1,0 +1,181 @@
+*{
+	margin : 0px;
+	padding : 0px;
+}
+header img{
+  margin-left: 47%;
+}
+header p{
+  position :absolute;
+  margin-top: -2%;
+  margin-left: 70%;
+  z-index: 2;
+}
+main{
+	/*height: 80vh;*/
+}
+.left_color{
+	background-color: #522360;
+}
+.character_show{
+	padding-top : 6rem;
+}
+.description{
+	background-image: url(../img/bgPatron1.png);
+	padding-top: 10rem;
+}
+.call_btn{
+	padding-top:  20%;
+}
+.hello_img{
+    width:  55%;
+  }
+  .avatar_img{
+    width: 55%;
+    margin-bottom: 9%;
+  }
+.prople-bg{
+	background-image: url(../img/bgBuscador.jpg);
+  background-size: 100% 100%;
+}
+.example{
+  position :absolute;
+	margin-top : -20%;
+  margin-left : 50%;
+}
+/* Style the search field */
+form.example{
+	padding-left: 5%;
+}
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-radius: 60px;
+  float: left;
+  width: 200%;
+}
+
+/* Style the submit button */
+form.example button {
+  float: left;
+  width: 18%;
+  padding: 12px;
+  background: #F6A800;
+  color: white;
+  font-size: 15px;
+  border : none;
+  margin-left:  -19%;
+  border-radius: 60px;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #B27804;
+}
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.avatar_logo{
+  position: absolute;
+	margin-top: -10%;
+	margin-left: 70%;
+}
+footer{
+	/*height: 20vh;*/
+	background-color: #163a63;
+}
+.bottom_btn{
+	border :solid 3px #005D9A;
+	border-radius : 10px;
+}
+@media (max-width: 480px) {
+  .fixed-top{
+    background-color: #522360;
+    z-index: 1;
+  }
+  header img{
+    margin-left: 0px;
+  }
+  header p{
+    position :relative;
+    margin: 0 10px;
+  }
+  .character_show{
+  padding-top : 10rem;
+}
+  .call_btn{
+    position : absolute;
+    padding-top:  100%;
+  }
+  .call_btn img{
+    width:  70%;
+  }
+  .hello_img{
+    width:  60%;
+  }
+  .avatar_img{
+    width: 60%;
+  }
+  .example{
+    position: static;
+    margin-top: 10px;
+    margin-left: 0;
+  }
+  /* Style the search field */
+  form.example{
+    padding: 10%;
+
+  }
+  form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-radius: 60px;
+    float: left;
+    width: 90%;
+  }
+
+  /* Style the submit button */
+  form.example button {
+    float: left;
+    width: 16%;
+    padding: 13px;
+    background: #F6A800;
+    color: white;
+    font-size: 15px;
+    border : none;
+    margin-left:  -15%;
+    border-radius: 60px;
+    cursor: pointer;
+  }
+
+  form.example button:hover {
+    background: #B27804;
+  }
+
+  /* Clear floats */
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .description{
+    background-image: url(../img/bgPatron1.png);
+    padding-top: 2rem;
+  }
+  .avatar_logo{
+    position: absolute;
+    width: 50%;
+    margin-top: -45%;
+    margin-left: 48%;
+  }
+  .prople-bg img{
+      display: none;
+    }
+  
+}
